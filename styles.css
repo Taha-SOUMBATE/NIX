@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  padding: 30px 80px;
+  background-color: rgb(205, 205, 205);
+  justify-content: space-between;
+}
+.menu .menu-list-items {
+  display: inline;
+
+  margin-right: 45px;
+  font-size: 15px;
+  line-height: 40px;
+}
+.menu .menu-list-items .botton {
+  border: 0px solid #ff685f;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: white !important;
+  background-color: #ff685f;
+}
+
+.menu .menu-list-items .color {
+  color: #ff685f;
+  text-decoration: none;
+}
+.menu .menu-list-items .menu-list-link {
+  color: black;
+  text-decoration: none;
+}
+
+.info-text::after {
+  content: "";
+  background-image: url(../image/baner-dec-left.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  top: 112px;
+  left: 0;
+}
+.info-text::before {
+  content: "";
+  width: 800px;
+  background-size: cover;
+  height: 700px;
+  right: 0;
+  top: 100px;
+  z-index: -1;
+  position: absolute;
+
+  background: no-repeat url(image/banner-right-image.png);
+}
+.info-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px 270px;
+}
+.header-text {
+  width: 600px;
+}
+.info-text p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  line-height: 30px;
+  color: #ff685f;
+}
+.info-text em {
+  font-style: normal;
+  color: #03a4ed;
+}
+.info-text span {
+  color: #ff695f;
+}
+.info-text h6 {
+  color: #ff685f;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.info-text h2 {
+  font-size: 50px;
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+}
+.main-blue-button-hover,
+.call-button {
+  display: inline-block;
+  margin: 20px 0px;
+}
+.info-text i {
+  color: white;
+  background-color: #ff685f;
+  border-radius: 50%;
+  padding: 5px 9px;
+  font-size: 20px;
+}
+
+.call-button a {
+  color: #ff685f !important;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.main-blue-button-hover a {
+  background: linear-gradient();
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #03a4ed;
+}
+.item:nth-child(1),
+.item:nth-child(2) {
+  display: none;
+}
